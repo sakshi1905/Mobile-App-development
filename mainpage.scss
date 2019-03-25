@@ -1,0 +1,14 @@
+page-mainpage
+{
+    .mybackground
+    {
+       background-image:url(../../assets/imgs/main.jpg);
+       background-size:cover;
+       background-repeat:no-repeat;
+    }
+    .item.item-input
+    {
+       background-color: transparent;
+       font-weight: bolder;
+    }
+}

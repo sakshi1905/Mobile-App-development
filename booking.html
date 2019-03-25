@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>pages/dashboard</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class = "mybackgroundcolo">
+  
+  <ion-item>
+    <ion-label floating text-center> Wt(Kgs)</ion-label>
+    <ion-input text-center type="Number"  [(ngModel)] ='wt'></ion-input>
+  </ion-item>
+  <ion-row style="height: 10px"></ion-row>
+  <button ion-button round block (click)="clickme4()">
+    <h5>Enter</h5>
+    <ion-icon name="log-in"></ion-icon>
+  </button>
+
+</ion-content>

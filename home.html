@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="mybackgroundcolor">
+  <h2 paadding text-center><font color="white" size=6>Welcome</font></h2>
+
+
+  <ion-list>
+    <ion-item>
+      <ion-label floating text-center>Username</ion-label>
+      <ion-input text-center type="email" [(ngModel)] ='username'> </ion-input> -->
+   </ion-item> 
+
+    <ion-item>
+      <ion-label floating text-center>Password</ion-label>
+      <ion-input text-center type="password"  [(ngModel)] ='password'></ion-input>
+    </ion-item>
+    <ion-row style="height: 8px"></ion-row>
+  <button ion-button round block (click)="clickme2()">
+    <h5>Login</h5>
+    <ion-icon name="log-in"></ion-icon>
+  </button>
+  </ion-list>
+
+    
+  </ion-content>
